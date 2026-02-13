@@ -22,39 +22,13 @@ En la Figura 2 se muestran los diferentes estados que se pueden representar usan
 
     Entonces:
 
-    1 bit → 
-    2
-    1
-    =
-    2
-    2
-    1
-    =2 estados
+    1 bit → 2*1 = 2 estados
 
-    2 bits → 
-    2
-    2
-    =
-    4
-    2
-    2
-    =4 estados
+    2 bits → 2*2 = 4 estados
 
-    3 bits → 
-    2
-    3
-    =
-    8
-    2
-    3
-    =8 estados
+    3 bits → 2*3 = 8 estados
 
-    N bits → 
-    2
-    𝑁
-    2
-    N
-    estados
+    N bits → 2*N = N estados
 
 
 
@@ -80,6 +54,86 @@ En la Figura 2 se muestran los diferentes estados que se pueden representar usan
     
     se suman los numero done se encuentran los "1"
     10110: 16 + 4 + 2 = 22
+## ¿Qué número binario representa el carácter 'C' en ASCII? 2. Convierte el 
+    Primero recuerda:
+    ASCII asigna un número a cada letra.
+
+     Código ASCII de ‘C’  
+
+    ‘C’ mayúscula en ASCII = 67 en decimal
+    En binario : 1000011
+## número flotante 5.75 a binario (explica los pasos).
+    Un número flotante tiene:
+    👉 parte entera + parte decimal
+
+    🔹 Paso 1: Parte entera (5 → binario)
+
+    Dividimos entre 2:
+
+    División	Residuo
+    5 ÷ 2 = 2	1
+    2 ÷ 2 = 1	0
+    1 ÷ 2 = 0	1
+
+    Leyendo de abajo hacia arriba:
+
+    5 = 101
+
+    🔹 Paso 2: Parte decimal (0.75 → binario)
+
+    Multiplicamos por 2:
+
+    Operación	Parte entera
+    0.75 × 2 = 1.5	1
+    0.5 × 2 = 1.0	1
+    0.0 × 2 = 0	0 (se detiene)
+
+    Entonces:
+    0,75 x 2 = 1,5
+    0,5 x 2 = 1
+    0,0 x 2 = 0 (se detiene)
+    Entonces 0.75 = 0,11
+    ✅ Respuesta final:
+    5.75 = 101.11
+
+## ✅ 1. ¿Cuántos bytes se necesitan para almacenar la palabra “Hola” en ASCII?
+
+    En ASCII estándar:
+
+    Cada carácter ocupa 1 byte (8 bits).
+
+    La palabra “Hola” tiene 4 caracteres:
+
+
+- H
+- o
+- l
+- a  
+
+Entonces:
+
+    4 caracteres × 1 byte/caracter = 4 bytes
+    4 caracteres×1 byte/caracter=4 bytes
+    ✅ Respuesta: 4 bytes
+
+## ✅ 2. ¿Cuántos bits hay en 5 KB?
+
+    Primero recuerda:
+
+    1 byte = 8 bits
+
+    1 KB = 1024 bytes (en informática)
+
+    🔹 Paso 1: Convertir KB a bytes
+    5 KB = 5 × 1024 = 5120 bytes
+
+## 🔹 Paso 2: Convertir bytes a bits
+
+    5120 × 8= 40960 bits
+    ✅ Respuesta final: 40960 bits
+
+​
+
 
     
 
