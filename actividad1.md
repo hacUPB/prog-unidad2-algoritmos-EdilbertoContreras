@@ -132,7 +132,56 @@ Entonces:
     5120 × 8= 40960 bits
     ✅ Respuesta final: 40960 bits
 
-​
+## ✅ 1. Convertir el número decimal 255 a hexadecimal
+
+    Sabemos que en hexadecimal:
+
+    0–9 = 0–9
+
+    10 = A
+
+    11 = B
+
+    12 = C
+
+    13 = D
+
+    14 = E
+
+    15 = F
+
+    🔹 Método: dividir entre 16
+
+    División	Residuo
+
+    255 ÷ 16 = 15      15 → F
+    15 ÷ 16 = 0        15 → F
+
+    Leyendo de abajo hacia arriba:
+
+    ✅ Respuesta: 255 = FF 
+    
+## Convertir binario 11010110 a hexadecimal
+    
+    🔹 Paso 1: Agrupar en bloques de 4 bits
+        
+        1101
+        0110
+
+    🔹 Paso 2: Convertir cada bloque
+
+    Binario	Decimal	Hex
+    
+    1101	13	D
+    0110	6	6
+    
+    🔹 Paso 3: Unir
+    
+    11010110 = D6
+
+    ✅ Respuesta final:
+    11010110
+
 
 
     
