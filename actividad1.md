@@ -33,7 +33,7 @@ En la Figura 2 se muestran los diferentes estados que se pueden representar usan
 
 
 ## Convierte el número decimal 22 a binario.
-    Binario:  1101
+    Binario:  10110
 
     22 / 2 = 11, residuo o    
     11 / 2 = 5,5, residuo 1
@@ -42,7 +42,7 @@ En la Figura 2 se muestran los diferentes estados que se pueden representar usan
     1  / 2 = 0,5 residuo 1
 
     (Residuos de abajo hacia arriba)  
-    Escribiendo los residuos al revés: 1101  
+    Escribiendo los residuos al revés: 10110  
 
 ## ¿Cuál es el resultado en decimal del número binario 10110?
 
@@ -124,7 +124,7 @@ Entonces:
 
     1 KB = 1024 bytes (en informática)
 
-    🔹 Paso 1: Convertir KB a bytes
+ Paso 1: Convertir KB a bytes
     5 KB = 5 × 1024 = 5120 bytes
 
 ## 🔹 Paso 2: Convertir bytes a bits
